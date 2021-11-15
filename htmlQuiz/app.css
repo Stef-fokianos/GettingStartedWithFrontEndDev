@@ -36,7 +36,7 @@ body.wrong{
     
 }
 
-.buttonGrid{
+.btn-grid{
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
@@ -44,7 +44,7 @@ body.wrong{
 
 }
 
-.button{
+.btn{
     --hue: var(--hue-neutral);
     border: 1px solid hsl(var(--hue), 100% , 30%);
     background-color: hsl(var(--hue), 100% , 50%);
@@ -56,12 +56,12 @@ body.wrong{
 
 }
 
-.button:hover{
+.btn:hover{
     border-color: black;
 }
 
-.startbutton
-, .nextbutton{
+.start-btn,
+.next-btn{
     font-size: 1.5rem;
     font-weight: bold;
     padding : 10px 20px ;
