@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FarenheitToCelcius{
 
-    //This program simply gets an imperial system input of temperature and converts is into metric.
+    //This code simply gets an imperial system input of temperature and converts is into metric.
 
     public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
