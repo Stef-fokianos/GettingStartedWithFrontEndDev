@@ -37,6 +37,13 @@ public class BinarySearch {
         target = scanner.nextInt();
 
         //binary search for single target , stops when first one is found
+       search(first, last, middle, target, array);
+
+
+    }
+
+    private static void search(int first, int last, int middle, int target, int[] array)
+    {
         while (first <= last){
             if (array[middle] < target)
                 first = middle + 1;
@@ -51,8 +58,6 @@ public class BinarySearch {
         }
         if (first > last)
             System.out.println(target +" is not present in the list.");
-
-
 
 
     }
